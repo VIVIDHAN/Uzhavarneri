@@ -1,0 +1,27 @@
+{
+  "markets": {
+    "thanjavur": {
+      "paddy_common": {"modal_price_per_quintal": 2350, "msp": 2300, "drying_cost_per_bag": 45, "moisture_penalty_per_pct": 30},
+      "paddy_fine": {"modal_price_per_quintal": 2480, "msp": 2320, "drying_cost_per_bag": 45, "moisture_penalty_per_pct": 30},
+      "blackgram": {"modal_price_per_quintal": 7800, "msp": 7400, "drying_cost_per_bag": 60, "moisture_penalty_per_pct": 50}
+    },
+    "tiruvarur": {
+      "paddy_common": {"modal_price_per_quintal": 2340, "msp": 2300, "drying_cost_per_bag": 50, "moisture_penalty_per_pct": 35},
+      "paddy_fine": {"modal_price_per_quintal": 2460, "msp": 2320, "drying_cost_per_bag": 50, "moisture_penalty_per_pct": 35},
+      "blackgram": {"modal_price_per_quintal": 7750, "msp": 7400, "drying_cost_per_bag": 60, "moisture_penalty_per_pct": 50}
+    },
+    "cuddalore": {
+      "paddy_common": {"modal_price_per_quintal": 2360, "msp": 2300, "drying_cost_per_bag": 45, "moisture_penalty_per_pct": 30},
+      "paddy_fine": {"modal_price_per_quintal": 2490, "msp": 2320, "drying_cost_per_bag": 45, "moisture_penalty_per_pct": 30},
+      "groundnut": {"modal_price_per_quintal": 6900, "msp": 6783, "drying_cost_per_bag": 70, "moisture_penalty_per_pct": 60}
+    },
+    "madurai": {
+      "paddy_common": {"modal_price_per_quintal": 2370, "msp": 2300, "drying_cost_per_bag": 40, "moisture_penalty_per_pct": 25},
+      "blackgram": {"modal_price_per_quintal": 7900, "msp": 7400, "drying_cost_per_bag": 55, "moisture_penalty_per_pct": 45}
+    }
+  },
+  "holding_threshold_advice": {
+    "wet_grain_loss_pct_per_day": 3.5,
+    "safe_storage_moisture_pct": 14.0
+  }
+}

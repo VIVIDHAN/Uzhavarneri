@@ -1,0 +1,80 @@
+{
+  "crops": {
+    "samba_paddy": {
+      "name_en": "Samba Paddy (Rice)",
+      "name_ta": "சம்பா நெல்",
+      "duration_days": 135,
+      "stages": [
+        {
+          "stage_id": "nursery_early_veg",
+          "name": "Nursery & Early Vegetative",
+          "days_range": [1, 25],
+          "critical_needs": "Maintain 2cm water depth. Do not submerge seedling tips.",
+          "fertilizer_window": "Basal DAP application completed before transplanting.",
+          "monsoon_risk_action": "Ensure surplus nursery drainage. Submerged seedlings die if waterlogged > 4 days."
+        },
+        {
+          "stage_id": "active_tillering",
+          "name": "Active Tillering & Panicle Initiation",
+          "days_range": [26, 55],
+          "critical_needs": "Top-dressing with Urea (25kg/acre) and MOP Potash (12.5kg/acre). High nitrogen demand.",
+          "fertilizer_window": "Urea top-dressing ONLY on dry soil with standing water < 2cm. STRICTLY postpone if rainfall > 15mm is forecast.",
+          "monsoon_risk_action": "CRITICAL: If heavy rain (>20mm in 24h) is forecast, cancel fertilizer broadcast immediately. Urea will leach into canals. Clear secondary field trenches."
+        },
+        {
+          "stage_id": "flowering_heading",
+          "name": "Flowering & Milk Stage",
+          "days_range": [56, 85],
+          "critical_needs": "Crucial moisture stage. High wind (>35 km/h) causes lodging and sterile spikelets.",
+          "fertilizer_window": "Foliar spray of 1% Potassium chloride or 2% DAP in clear weather.",
+          "monsoon_risk_action": "Avoid foliar spraying during cloudy or rainy days. Inspect for false smut or neck blast disease after continuous wet spell."
+        },
+        {
+          "stage_id": "grain_hardening",
+          "name": "Dough & Grain Hardening",
+          "days_range": [86, 115],
+          "critical_needs": "Gradual field de-watering. Grains turning golden yellow.",
+          "fertilizer_window": "No chemical applications permitted.",
+          "monsoon_risk_action": "Open field bund drains 10-14 days before expected harvest. Prevent standing water from causing grain pre-germination on the panicle."
+        },
+        {
+          "stage_id": "harvest_ready",
+          "name": "Physiological Maturity & Harvest",
+          "days_range": [116, 150],
+          "critical_needs": "Harvesting with combine harvester or manual sickle. Grain moisture target: 18-20%.",
+          "fertilizer_window": "None.",
+          "monsoon_risk_action": "URGENT HARVEST DECISION: If cyclonic storm or rain > 25mm is predicted within 48h and crop is 85% golden, harvest immediately with tracked harvesters. If rain has started, postpone harvest until field surface dries to avoid harvester bogging."
+        }
+      ]
+    },
+    "blackgram": {
+      "name_en": "Blackgram (Ulundu)",
+      "name_ta": "உளுந்து",
+      "duration_days": 70,
+      "stages": [
+        {
+          "stage_id": "vegetative",
+          "name": "Vegetative & Branching",
+          "days_range": [1, 30],
+          "critical_needs": "Extremely sensitive to waterlogging. Roots rot within 24 hours of ponding.",
+          "fertilizer_window": "Foliar spray of 2% DAP at 30 DAS.",
+          "monsoon_risk_action": "Open drainage channels at 2-metre intervals. Pulse crops cannot tolerate standing water."
+        },
+        {
+          "stage_id": "pod_formation",
+          "name": "Flowering & Pod Filling",
+          "days_range": [31, 70],
+          "critical_needs": "Dry weather preferred for pod maturation.",
+          "fertilizer_window": "Pulse wonder foliar spray (2kg/acre) on sunny mornings.",
+          "monsoon_risk_action": "Excess rain causes vegetative re-growth and rotting of pods on the ground."
+        }
+      ]
+    }
+  },
+  "safety_prohibitions": {
+    "rainfall_threshold_spray_mm": 15.0,
+    "wind_threshold_spray_kmh": 25.0,
+    "banned_chemicals_list": ["Monocrotophos", "Endosulfan", "Methyl Parathion", "Paraquat", "Carbofuran 3G"],
+    "rule_explanation": "Applying nitrogenous fertilizers or synthetic chemical sprays within 24 hours of heavy rainfall results in chemical runoff into local water bodies, zero plant uptake, and severe economic waste."
+  }
+}
